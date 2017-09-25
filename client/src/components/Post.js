@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 
-const Post = ({ title, img_url }) => (
+const Post = ({ id, title, img_url }) => (
   <Card>
     { img_url } && <Image src={img_url} /> }
     <Card.Content>
